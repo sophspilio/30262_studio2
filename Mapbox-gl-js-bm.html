@@ -8,10 +8,11 @@
     <!-- Add in the Mapbox GL JS CSS file -->
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
     <!-- Add styling info for the map -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <style>
          #mapId {
-      height: 400px;
-      width: 800px;
+      height: 600px;
+
     }
     </style>
     <!-- Adding styling info for page layout by reading in a CSS file -->
@@ -35,10 +36,10 @@
 
     <script>
     // Set your Mapbox access token
-    mapboxgl.accessToken = "";
+    mapboxgl.accessToken = "pk.eyJ1Ijoic29waHNwaWxpbyIsImEiOiJja2xqeGtyNmgwb2RyMndxcm9qbHhkbnpvIn0.oB5O3-BnHjh_6GHeEiBqAw";
 
     /* The map variable stores a new mapbox gl map.
-    * map's center set to [-122.467, 37.798] with zoom 13. 
+    * map's center set to [-122.467, 37.798] with zoom 13.
     * Set the style URL to your custom style
     * Update the style with your custom style's Style URL.
     * See the Style URL'S reference for more info: https://docs.mapbox.com/help/glossary/style-url/
@@ -46,11 +47,14 @@
     var map = new mapboxgl.Map({
     center: [-122.467, 37.798],
     zoom: 13,
-    style: "",
+    style: "mapbox://styles/sophspilio/cknbz1djy1xe417plrds7g6bl",
     container: "mapId"
     });
 
     </script>
+<p> This custom Mapbox basemap was based on the Downtown Worcester Business Improvement District's colors.
+You can check out more about this organization (that I also intern at) <a href = "https://www.downtownworcester.org"> here.</a>
+I based the colors on the BID's branding guide. </p>
 
 </body>
 

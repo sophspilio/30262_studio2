@@ -1,9 +1,19 @@
+body {
+ font-family: 'Roboto', sans-serif;
+ color: #996969;
+ padding: 5px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
 ul {
  list-style-type: none;
+ color: #A75D67;
  margin: 1px;
  padding: 1px;
  overflow: hidden;
  background-color: white;
+ font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -18,7 +28,7 @@ li:last-child {
 
 li a {
  display: block;
- color: black;
+ color: #004D7C;
  text-align: left;
  padding: 15px 17px;
  text-decoration: none;
@@ -26,9 +36,13 @@ li a {
 
 /* Links will change color when hovered over */
 li a:hover {
- background-color: #a09f9f;
+ background-color: #D0E3DD;
 }
 
 .active {
- background-color: #a09f9f;
+ background-color: #D0E3DD;
+}
+
+a{
+  color: #004D7C;
 }
