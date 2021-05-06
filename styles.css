@@ -2,6 +2,7 @@ body {
  font-family: 'Roboto', sans-serif;
  color: #996969;
  padding: 5px;
+ text-align: left;
 }
 p {
   font-family: 'Montserrat', sans-serif;
@@ -14,6 +15,7 @@ ul {
  overflow: hidden;
  background-color: white;
  font-family: 'Raleway', sans-serif;
+ text-align: center;
 }
 
 li {
@@ -29,7 +31,7 @@ li:last-child {
 li a {
  display: block;
  color: #004D7C;
- text-align: left;
+ text-align: center;
  padding: 15px 17px;
  text-decoration: none;
 }
